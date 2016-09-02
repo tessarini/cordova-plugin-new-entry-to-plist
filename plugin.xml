@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-new-entry-to-plist" version="0.0.1">
+    <name>iOS plist</name>
+    <author>Tessarini</author>
+    <description>Use this plugin to add an entry to the iOS plist</description>
+    <keywords>cordova, ios, app, plist, entry, cordova-ios</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+      <!--OPTION 1: with some parent-->
+      <!--config-file target="*-Info.plist" parent="<PARENT NAME HERE>"-->
+      <!--OPTION 2: with no parent-->
+      <config-file target="*-Info.plist">
+          <dict>
+              <key>ITSAppUsesNonExemptEncryption</key>
+              <false/>
+          </dict>
+      </config-file>
+    </platform>
+</plugin>

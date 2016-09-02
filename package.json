@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-new-entry-to-plist",
+  "version": "0.0.1",
+  "author": "Tessarini",
+  "description": "Use this plugin to add an entry to the iOS plist",
+  "cordova": {
+    "id": "cordova-plugin-new-entry-to-plist",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tessarini/cordova-plugin-new-entry-to-plist.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "plist",
+    "entry",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tessarini/cordova-plugin-new-entry-to-plist.git#readme"
+}
